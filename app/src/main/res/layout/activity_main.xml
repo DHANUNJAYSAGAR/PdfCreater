@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/et1"
+    android:background="@drawable/bg1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="400dp"
+        android:drawableLeft="@drawable/pdff"
+        android:background="#BF7D69"
+        android:text="Create Pdf" />
+
+    <ImageButton
+        android:id="@+id/ib"
+        android:layout_width="82dp"
+        android:layout_height="71dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="100dp"
+        android:background="#000000"
+        app:srcCompat="@drawable/voice" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="250dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Clear Text" />
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="275dp"
+        android:layout_height="300dp"
+
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Enter Text!!!"
+        android:inputType="textMultiLine" />
+</RelativeLayout>
